@@ -1,0 +1,22 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+    .popular-repos .capped-box, .mini-repo-list li a {
+        height: auto !important;
+    }
+    .mini-repo-list span.rdesc {
+        line-height: 105% !important;
+        padding-bottom: 2px !important;
+    }
+    .css-truncate.css-truncate-target, .css-truncate .css-truncate-target {
+        white-space: normal !important;
+    }
+
+    .mini-repo-list li.no-description a .mini-icon {
+        top: 8px !important;
+    }
+    
+    .mini-repo-list li.no-description a {
+        padding-top: 7px !important;
+    }
+}
