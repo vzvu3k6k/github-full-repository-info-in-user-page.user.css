@@ -2,8 +2,8 @@
 
 @-moz-document domain("github.com") {
     .repo-and-owner {
-      max-width: 230px;
       word-break: break-all !important;
+      white-space: normal !important;
       display: block;
       margin-bottom: 2px !important;
     }
