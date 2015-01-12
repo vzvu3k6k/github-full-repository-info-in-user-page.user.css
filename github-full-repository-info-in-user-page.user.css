@@ -1,25 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
-    .repo-and-owner {
-      word-break: break-all !important;
-      white-space: normal !important;
-      display: block;
-      margin-bottom: 2px !important;
-    }
-
-    .repo-list-item.css-truncate .repo.css-truncate-target, 
-    .repo-list-item.css-truncate .owner.css-truncate-target {
-      display: inline !important;
-      white-space: normal !important;
-    }
-
-    .repo-list-item.css-truncate .repo-description.css-truncate-target {
-      display: block;
-      white-space: normal !important;
-    }
-
-    .repo-list {
-      line-height: 1.2;
+    .repo-and-owner.css-truncate-target, .repo-description.css-truncate-target {
+       white-space: normal;
+       overflow: visible;
+       line-height: 1.2;
     }
 }
