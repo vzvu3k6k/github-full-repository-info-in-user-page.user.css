@@ -2,8 +2,11 @@
 
 @-moz-document domain("github.com") {
     .repo-and-owner.css-truncate-target, .repo-description.css-truncate-target {
-       white-space: normal;
-       overflow: visible;
-       line-height: 1.2;
+        white-space: normal;
+        overflow: visible;
+        max-width: 100%;
+    }
+    .repo-description.css-truncate-target {
+        line-height: 1.2;
     }
 }
